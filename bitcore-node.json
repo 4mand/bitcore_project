@@ -1,0 +1,17 @@
+{
+  "network": "testnet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "web",
+"amanservice"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "./data",
+        "exec": "/home/aman/.nvm/versions/node/v4.8.5/lib/node_modules/bitcore/node_modules/bitcore-node/bin/bitcoind"
+      }
+    }
+  }
+}
